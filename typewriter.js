@@ -7,4 +7,7 @@ for (const char of sentence) {
   }, timePassed)
   timePassed += 50;
 } 
-// process.stdout.write ('\n');
+
+setTimeout(() => {
+process.stdout.write ('\n');
+}, timePassed);
